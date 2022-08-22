@@ -16,7 +16,7 @@ It will place new certificates in: /etc/letsencrypt/live/<domainname>
 Once succesfully placed there, run: prepareLetsEncryptCertificates.sh
 This script copies the full chain and private key and merges the files from /etc/letsencrypt/live/<domain name> to /etc/haproxy/ssl/<domainname>.pem
 
-Once the files are available in the haproxy ssl you're good to go.
+Once the files are available in the haproxy ssl folder you're good to go.
 
 ###
 Auto renewal
