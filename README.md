@@ -4,8 +4,9 @@
 ##### This Repo is for improvement and further development of the scripts
 
 #### Prereqs
-Place the scripts in /etc/haproxy and mark them as executable
-Allow inbound traffic to port 9080 to the HA proxy server
+* Place the scripts in /etc/haproxy 
+* mark them as executable
+* Allow inbound traffic to port 9080 to the HA proxy server
 
 Use requestNewCertificate.sh for each and every domain you want to add an ssl certificate for.
 run the script using 2 arguments
