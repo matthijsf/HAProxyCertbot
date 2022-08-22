@@ -1,8 +1,10 @@
-### HAProxy with Certbot automated certificate renewal
+# HAProxy with Certbot automated certificate renewal
 
-Credits to: https://kevinbentlage.nl/blog/lets-encrypt-with-haproxy for writing the scripts and tutorial needed to get this going. This Repo is for improvement and further development of the scripts
+### Credits to: https://kevinbentlage.nl/blog/lets-encrypt-with-haproxy for writing the foundation of the scripts and tutorial needed to get this going. 
+##### This Repo is for improvement and further development of the scripts
 
-Place the scripts in /etc/haproxy
+#### Prereqs
+Place the scripts in /etc/haproxy and mark them as executable
 Allow inbound traffic to port 9080 to the HA proxy server
 
 Use requestNewCertificate.sh for each and every domain you want to add an ssl certificate for.
