@@ -1,4 +1,4 @@
-This repos houses a selection of scripts to auto renew certificates for HAProxy using certbot. 
+### Credits to: https://kevinbentlage.nl/blog/lets-encrypt-with-haproxy for writing the scripts and tutorial needed to get this going. This Repo is for improvement and further development of the scripts
 
 Place the scripts in /etc/haproxy
 Allow inbound traffic to port 80, 443 and 9080 to the HA proxy server
