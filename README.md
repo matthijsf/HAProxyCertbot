@@ -1,4 +1,6 @@
-### Credits to: https://kevinbentlage.nl/blog/lets-encrypt-with-haproxy for writing the scripts and tutorial needed to get this going. This Repo is for improvement and further development of the scripts
+### HAProxy with Certbot automated certificate renewal
+
+Credits to: https://kevinbentlage.nl/blog/lets-encrypt-with-haproxy for writing the scripts and tutorial needed to get this going. This Repo is for improvement and further development of the scripts
 
 Place the scripts in /etc/haproxy
 Allow inbound traffic to port 9080 to the HA proxy server
